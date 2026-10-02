@@ -1,0 +1,26 @@
+# dados brutos da organização parceira (confidenciais — nunca versionar)
+# obs.: web/public/data/tickets.json (anonimizado, sem texto livre) É versionado para o painel rodar
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# evidência da reunião (contém link e PIN do Google Meet) — só no relatório entregue
+docs/figuras/evidencia_*
+
+# entregáveis acadêmicos (enviados separadamente)
+entregaveis/
+*.docx
+*.pptx
+*.pdf
+
+# ambientes e build
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+web/dist/
+
+# sistema
+.DS_Store
